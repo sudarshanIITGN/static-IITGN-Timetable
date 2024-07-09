@@ -134,4 +134,16 @@ main {
         margin-top: 50px;
         /* font-size: 20px; */
     }
+    #results {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #FFF9C4;
+        border: 1px solid #6D412A;
+        border-radius: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        color: #333;
+        line-height: 1.5;
+    }
 }
