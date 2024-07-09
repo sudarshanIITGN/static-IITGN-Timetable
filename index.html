@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable Scheduler</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="main_container">
+        <img src="static/image.png" id="box1" alt="">
+        <form class="searchbar" onsubmit="handleFormSubmit(event)">
+            <img src="static/search.png">
+            <input type="text" name="subjects" placeholder="Ex: ES 115, MA 205">
+        </form>
+        <br>
+        <div id="box3">Makes a timetable for you & lets you know which courses are clashing that you need to drop</div>
+        <div id="box4">Just Enter your subject code/name with commas</div>
+        <div id="results"></div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
