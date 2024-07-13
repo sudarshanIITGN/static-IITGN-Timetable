@@ -111,8 +111,8 @@ main {
 /* Responsive adjustments */
 @media only screen and (max-width: 500px) {
     .main_container {
-        margin-top: 65px;
-        /* margin-top: auto; */
+/*         margin-top: 65px; */
+        margin-top: auto;
         padding: 10px;
         width: 300px;
     }
